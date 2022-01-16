@@ -1,0 +1,52 @@
+Error connection to DB
+PDO ERROR:PDOException: SQLSTATE[HY000] [1045] Access denied for user 'Vincent'@'localhost' (using password: YES) in /Users/pialouxvincent/Rendu/C-DEV-114-BDX-1-1-myshop-vincent.pialoux/config.php:6
+Stack trace:
+#0 /Users/pialouxvincent/Rendu/C-DEV-114-BDX-1-1-myshop-vincent.pialoux/config.php(6): PDO->__construct('mysql:host=loca...', 'Vincent', 'Vincent')
+#1 /Users/pialouxvincent/Rendu/C-DEV-114-BDX-1-1-myshop-vincent.pialoux/config.php(18): connect('Vincent', 'Vincent')
+#2 {main} storage in errors.log
+Error connection to DB
+PDO ERROR:PDOException: SQLSTATE[HY000] [1045] Access denied for user 'vincent'@'localhost' (using password: YES) in /Users/pialouxvincent/Rendu/C-DEV-114-BDX-1-1-myshop-vincent.pialoux/config.php:6
+Stack trace:
+#0 /Users/pialouxvincent/Rendu/C-DEV-114-BDX-1-1-myshop-vincent.pialoux/config.php(6): PDO->__construct('mysql:host=loca...', 'vincent', 'TOTO')
+#1 /Users/pialouxvincent/Rendu/C-DEV-114-BDX-1-1-myshop-vincent.pialoux/config.php(18): connect('vincent', 'TOTO')
+#2 {main} storage in errors.log
+Error connection to DB
+PDO ERROR:PDOException: SQLSTATE[HY000] [1045] Access denied for user 'joel'@'localhost' (using password: YES) in /Users/pialouxvincent/Rendu/C-DEV-114-BDX-1-1-myshop-vincent.pialoux/config.php:6
+Stack trace:
+#0 /Users/pialouxvincent/Rendu/C-DEV-114-BDX-1-1-myshop-vincent.pialoux/config.php(6): PDO->__construct('mysql:host=loca...', 'joel', 'joel')
+#1 /Users/pialouxvincent/Rendu/C-DEV-114-BDX-1-1-myshop-vincent.pialoux/config.php(18): connect('joel', 'joel')
+#2 {main} storage in errors.log
+Error connection to DB
+PDO ERROR:PDOException: SQLSTATE[HY000] [1045] Access denied for user 'joel'@'localhost' (using password: YES) in /Users/pialouxvincent/Rendu/C-DEV-114-BDX-1-1-myshop-vincent.pialoux/config.php:6
+Stack trace:
+#0 /Users/pialouxvincent/Rendu/C-DEV-114-BDX-1-1-myshop-vincent.pialoux/config.php(6): PDO->__construct('mysql:host=loca...', 'joel', 'joel')
+#1 /Users/pialouxvincent/Rendu/C-DEV-114-BDX-1-1-myshop-vincent.pialoux/index.php(16): connect('joel', 'joel')
+#2 {main} storage in errors.log
+Error connection to DB
+PDO ERROR:PDOException: SQLSTATE[HY000] [1045] Access denied for user 'vincent'@'localhost' (using password: YES) in /Users/joelrazafinjatovo/Rendu/day17_myshop/C-DEV-114-BDX-1-1-myshop-vincent.pialoux/config.php:6
+Stack trace:
+#0 /Users/joelrazafinjatovo/Rendu/day17_myshop/C-DEV-114-BDX-1-1-myshop-vincent.pialoux/config.php(6): PDO->__construct('mysql:host=loca...', 'vincent', 'vincent')
+#1 /Users/joelrazafinjatovo/Rendu/day17_myshop/C-DEV-114-BDX-1-1-myshop-vincent.pialoux/config.php(17): connect('vincent', 'vincent')
+#2 /Users/joelrazafinjatovo/Rendu/day17_myshop/C-DEV-114-BDX-1-1-myshop-vincent.pialoux/index.php(2): include_once('/Users/joelraza...')
+#3 {main} storage in errors.log
+Error connection to DB
+PDO ERROR:PDOException: SQLSTATE[HY000] [1045] Access denied for user 'vincent'@'localhost' (using password: YES) in /Users/joelrazafinjatovo/Rendu/day17_myshop/C-DEV-114-BDX-1-1-myshop-vincent.pialoux/config.php:6
+Stack trace:
+#0 /Users/joelrazafinjatovo/Rendu/day17_myshop/C-DEV-114-BDX-1-1-myshop-vincent.pialoux/config.php(6): PDO->__construct('mysql:host=loca...', 'vincent', 'vincent')
+#1 /Users/joelrazafinjatovo/Rendu/day17_myshop/C-DEV-114-BDX-1-1-myshop-vincent.pialoux/config.php(18): connect('vincent', 'vincent')
+#2 /Users/joelrazafinjatovo/Rendu/day17_myshop/C-DEV-114-BDX-1-1-myshop-vincent.pialoux/index.php(2): include_once('/Users/joelraza...')
+#3 {main} storage in errors.log
+Error connection to DB
+PDO ERROR:PDOException: SQLSTATE[HY000] [1045] Access denied for user 'joel'@'localhost' (using password: YES) in /Users/pialouxvincent/Rendu/C-DEV-114-BDX-1-1-myshop-vincent.pialoux/config.php:6
+Stack trace:
+#0 /Users/pialouxvincent/Rendu/C-DEV-114-BDX-1-1-myshop-vincent.pialoux/config.php(6): PDO->__construct('mysql:host=loca...', 'joel', 'joel')
+#1 /Users/pialouxvincent/Rendu/C-DEV-114-BDX-1-1-myshop-vincent.pialoux/config.php(18): connect('joel', 'joel')
+#2 /Users/pialouxvincent/Rendu/C-DEV-114-BDX-1-1-myshop-vincent.pialoux/index.php(2): include_once('/Users/pialouxv...')
+#3 {main} storage in errors.log
+Error connection to DB
+PDO ERROR:PDOException: SQLSTATE[HY000] [1045] Access denied for user 'joel'@'localhost' (using password: YES) in /Users/pialouxvincent/Rendu/C-DEV-114-BDX-1-1-myshop-vincent.pialoux/config.php:6
+Stack trace:
+#0 /Users/pialouxvincent/Rendu/C-DEV-114-BDX-1-1-myshop-vincent.pialoux/config.php(6): PDO->__construct('mysql:host=loca...', 'joel', 'joel')
+#1 /Users/pialouxvincent/Rendu/C-DEV-114-BDX-1-1-myshop-vincent.pialoux/config.php(19): connect('joel', 'joel')
+#2 /Users/pialouxvincent/Rendu/C-DEV-114-BDX-1-1-myshop-vincent.pialoux/index.php(2): include_once('/Users/pialouxv...')
+#3 {main} storage in errors.log

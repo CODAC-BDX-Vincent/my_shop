@@ -1,0 +1,51 @@
+.createProduct-body{
+    background-color: #E8E8E8;
+    font-family: 'Roboto', sans-serif;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+    
+}
+
+
+.createProduct-container{
+    background-color: white;
+    margin: 30px auto;
+    display: flex;
+    min-width: 200px;
+    max-width: 50vh;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 10px;
+    min-height: 80vh;
+}
+
+.createProduct-inputs-wrapper{
+    /*border: 2px solid red;*/
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    padding:20px;
+}
+
+.createProduct-inputs-wrapper input{
+    display: block;
+    width: 100%;
+    height: 30px;
+    border: none;
+    border-bottom: 2px solid  #E8E8E8;
+}
+
+.createProduct-inputs-wrapper label{
+    /*border: 2px solid red;*/
+    margin: 10px 0px;
+    font-weight: bold;
+}
+
+.createProduct-inputs-wrapper button{
+    /*border: 2px solid red;*/
+    margin-top: 10px;
+}

@@ -1,0 +1,84 @@
+.users-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+    
+}
+
+.users-nav{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.users-nav div{
+    padding: 10px;
+}
+.users-nav div a{
+    padding: 10px;
+    color:white;
+    text-decoration: none;
+}
+
+table {
+    border-collapse: collapse;
+    width: 90vw;
+}
+
+th {
+    border-top: 2px solid #E8E8E8;
+    border-bottom: 3px solid #E8E8E8;
+}
+
+td {
+    text-align: center;
+    border-bottom: 1px solid #E8E8E8;
+}
+.edit_delete_btns a{
+    text-decoration: none;
+    color:black;
+}
+
+
+
+.pagination {
+    /*border: 2px solid red;*/
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+}
+
+
+ul.pagination {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+ul.pagination li {
+    background-color: #E8E8E8;
+    padding: 10px;
+}
+
+ul.pagination li a {
+    text-decoration: none;
+}
+
+ul.pagination li.disabled a {
+    pointer-events: none;
+    cursor: default;
+    text-decoration: none;
+    color: darkgrey;
+}
+
+
+ul.pagination li.active {
+    background-color: #1E90FF;
+}

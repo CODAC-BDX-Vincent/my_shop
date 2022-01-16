@@ -1,0 +1,61 @@
+.createCategory_body{
+    background-color: #E8E8E8;
+    font-family: 'Roboto', sans-serif;
+
+}
+.createCategory_body a{
+   
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+    
+}
+
+
+.createCategory_container{
+    /*border: 2px solid red;*/
+    background-color: white;
+    margin: 30px auto;
+    display: flex;
+    min-width: 200px;
+    max-width: 50vh;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    min-height: 30vh;
+    padding: 10px;
+}
+.createCategory_body input{
+    display: block;
+    width: 100%;
+    height: 30px;
+    border: none;
+    border-bottom: 2px solid  #E8E8E8;
+}
+
+.createCategory_wrapper button{
+    margin-top: 20px;
+}
+
+.createCategory_body label{
+    margin: 10px 0px;
+    font-weight: bold;
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .signup-container{
+        /*justify-content: space-evenly;*/
+        /*background-color: pink;*/
+        font-size: 1.4em;
+    }
+    .signup-inputs-wrapper input{
+        height: 40px;
+    }
+
+    .signup-inputs-wrapper{
+        /*border: 2px solid red;*/
+        margin:20px 20px;
+    }
+}

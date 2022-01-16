@@ -1,0 +1,54 @@
+.editUser-body{
+    background-color: #E8E8E8;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.editUser-container{
+    background-color: white;
+    margin: 30px auto;
+    display: flex;
+    min-width: 200px;
+    max-width: 50vh;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 10px;
+    min-height: 80vh;
+}
+
+.editUser-inputs-wrapper{
+    /*border: 2px solid red;*/
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.editUser-inputs-wrapper input{
+    display: block;
+    width: 100%;
+    height: 30px;
+    border: none;
+    border-bottom: 2px solid  #E8E8E8;
+}
+
+.editUser-inputs-wrapper label{
+    margin: 10px 0px;
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .editUser-container{
+        /*justify-content: space-evenly;*/
+        /*background-color: pink;*/
+        font-size: 1.4em;
+    }
+    .editUser-inputs-wrapper input{
+        height: 40px;
+    }
+
+    .editUser-inputs-wrapper{
+        /*border: 2px solid red;*/
+        margin:20px 20px;
+    }
+}

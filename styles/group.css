@@ -1,0 +1,406 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    max-width: 1024px;
+    margin: auto;
+    padding: 0 20px;
+
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+    
+}
+
+#wrapper {
+    /*display: grid;*/
+    /*grid-template-columns: repeat(1, 1fr);*/
+
+
+}
+
+header {
+    /*background-color: orange;*/
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+}
+
+header div {
+    /*border: 2px solid red;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header div:first-child {
+    align-self: flex-start;
+}
+
+/*Select black square button*/
+header div:first-child img {
+    height: 50px;
+}
+
+/* Select Cart*/
+header div img {
+    height: 70%;
+}
+
+header .hidden_menu{
+    display: none;
+}
+header .hidden_menu a{
+    padding: 20px;
+    text-decoration: none;
+    color:black;
+}
+
+.login{
+    display: none;
+    margin-left: 30px;
+}
+
+.fa-bars {
+    font-size: 30px;
+    margin-left: 50px;
+}
+
+.searches {
+    display: flex;
+    flex-direction: column;
+}
+
+.searches select {
+    width: 100%;
+}
+
+
+.input_search {
+    /*background-color: yellow;*/
+    display: flex;
+}
+
+/*Select loupe*/
+.input_search img {
+    /*background-color: red;*/
+    display: block;
+    width: 20px;
+    padding: 15px;
+}
+
+.input_search input {
+    display: block;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid black;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.input_search input:focus {
+    outline: none;
+}
+
+.algo {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.algo img {
+    width: 10px;
+    height: 10px;
+    margin-left: 30px;
+}
+
+.algo p {
+    font-size: 13px;
+}
+
+.searches select {
+    border: none;
+    border-bottom: 2px solid darkgrey;
+    padding: 10px;
+}
+
+.product_tag .image_product{
+    width: 80%;
+    min-width:200px;
+
+}
+
+.product_tag .Sous_boite{
+    margin: 0 20px;
+}
+
+.filterBy{
+    display: none;
+}
+
+.name_prices {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tag_footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.tag_footer p {
+    color: grey;
+    font-size: small;
+}
+
+.tag_footer .stars img{
+    width:12px;
+}
+
+.stars {
+    display: flex;
+}
+
+.product_tag {
+
+    margin: 10px 0px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+
+    /*background-color: orange;*/
+}
+
+footer a {
+    /*width: 100%;*/
+    text-align: center;
+    padding: 10px 15px;
+
+}
+
+footer a:first-child {
+    background-color: black;
+    color: white;
+}
+
+
+footer .numbers_hidden{
+    display: none;
+}
+  .input_search {
+       align-items: flex-end;
+       /*border: 0;*/
+       /*display: block;*/
+       /*flex-grow: 1;*/
+       /*border-bottom: 1px solid red;*/
+
+   }
+
+   .input_search form :hover {
+       /* align-items: flex-end; */
+       border: 2px solid black;
+       height: 44px;
+       /*border: 0;*/
+       /*display: block;*/
+       /*flex-grow: 1;*/
+       /*border-bottom: 1px solid red;*/
+
+   }
+    .burger_menu{
+        display: none;
+       
+    }
+
+
+
+   .right-header{
+       display: flex;
+       width: 40%;
+       justify-content: flex-end;
+       gap: 10px;
+      
+   }
+   /*PAGINATION*/
+
+.pagination {
+    /*border: 2px solid red;*/
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+}
+
+ul.pagination {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+ul.pagination li {
+    background-color: #E8E8E8;
+    padding: 10px;
+}
+
+ul.pagination li a {
+    text-decoration: none;
+}
+
+ul.pagination li.disabled a {
+    pointer-events: none;
+    cursor: default;
+    text-decoration: none;
+    color: darkgrey;
+}
+
+
+ul.pagination li.active {
+    background-color: #1E90FF;
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    header .hidden_menu{
+        display: block;
+    }
+.product_tag .image_product{
+    width: 250px;
+    height: 215px;
+}
+
+    .burger_menu{
+        display: none;
+    }
+
+    .login{
+        display: block;
+    }
+
+    .searches {
+        flex-direction: row;
+        margin-bottom: 30px;
+    }
+
+    .filters{
+        display: none;
+    }
+
+    .searches{
+        align-items: flex-end;
+    }
+
+
+
+    .searches .best form{
+        margin-left: auto;
+        width: 250px;
+        display: flex;
+    }
+
+    .algo{
+        margin-left: auto;
+    }
+
+    .boite{
+        display: flex;
+        justify-content: space-between;
+        flex:1;
+        margin-right: 20px;
+        /*border-bottom: 1px solid red;*/
+    }
+
+ 
+
+   .input_search img{
+       border: 0;
+   }
+
+   .algo {
+       margin-left: auto;
+       border-bottom: 2px solid black;
+
+   }
+
+   .space{
+       /*width: 100%;*/
+       /*background-color: red;*/
+       border-bottom: 2px solid black;
+       flex-grow: 1;
+   }
+
+   .products_container{
+       display: grid;
+       grid-template-columns: 250px 250px 250px 250px;
+       grid-template-rows: 0fr auto ;
+       gap:10px;
+       min-height: 75vh;
+   /*   */
+   }
+
+    footer{
+        justify-content: flex-start;
+
+    }
+
+    footer a{
+        margin: 0 5px;
+    }
+
+
+    footer .numbers_hidden{
+        display: block;
+    }
+
+    .filterBy{
+        display: flex;
+        flex-direction: column;
+        justify-content:space-around;
+    }
+
+    .filterBy:first-child{
+        color: grey;
+    }
+
+    .filterBy select{
+        border: 0;
+        border-bottom: 1px solid black;
+        padding: 10px 0px;
+    }
+
+    .range{
+        display: flex;
+        justify-content: space-between;
+    }
+    .form{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: grey;
+        border-radius: 20%;
+    }
+
+    .form .form_wrapper{
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        padding: 200px;
+    }
+
+    .form .form_wrapper form{
+        display: flex;
+        flex-direction: column;
+    }
+      .right-header{
+       display: flex;
+       width: 40%;
+       justify-content: space-between;
+      
+   }
+
+
+}
+
